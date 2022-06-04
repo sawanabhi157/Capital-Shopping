@@ -1,0 +1,20 @@
+{
+  "name": "capital-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "cd ./Backend && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawanabhi157/Capital-Shopping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawanabhi157/Capital-Shopping/issues"
+  },
+  "homepage": "https://github.com/sawanabhi157/Capital-Shopping#readme"
+}
