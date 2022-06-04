@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./AddProductAdmin.css";
 import axios from "axios";
+import { SERVER_URL } from "../../../utils";
 function AddProductAdmin() {
   const [addProduct, setAddProduct] = useState({
     title: "",
@@ -23,7 +24,7 @@ function AddProductAdmin() {
     e.preventDefault();
     console.log(addProduct);
     axios
-      .post("http://localhost:5000/products", {
+      .post(`${SERVER_URL}/products`, {
         ...addProduct,
       })
       .then(function (response) {

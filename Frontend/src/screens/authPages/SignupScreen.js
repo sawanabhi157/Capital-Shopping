@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./SignupScreen.css";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import { SERVER_URL } from "../../utils";
 function SignupScreen() {
   const [userRegistration, setuserRegistration] = useState({
     username: "",
@@ -22,7 +23,7 @@ function SignupScreen() {
     e.preventDefault();
     console.log(userRegistration);
     axios
-      .post("http://localhost:5000/users", {
+      .post(`${SERVER_URL}/users`, {
         ...userRegistration,
       })
       .then(function (response) {

@@ -8,17 +8,16 @@ import Navbar from "../../components/generalComponents/Navbar";
 import Footer from "../../components/generalComponents/Footer";
 import DiscountBanner from "../../components/generalComponents/DiscountBanner";
 import CatergoryContainer from "../../components/generalComponents/CatergoryContainer";
+import { SERVER_URL } from "../../utils";
 
 const MensPage = () => {
   const products = useSelector((state) => state.allProducts.products);
   const dispatch = useDispatch();
 
   const fetchProducts = async () => {
-    const response = await axios
-      .get("http://localhost:5000/products")
-      .catch((err) => {
-        console.log("Err: ", err);
-      });
+    const response = await axios.get(`${SERVER_URL}/products`).catch((err) => {
+      console.log("Err: ", err);
+    });
     dispatch(setProducts(response.data));
   };
 

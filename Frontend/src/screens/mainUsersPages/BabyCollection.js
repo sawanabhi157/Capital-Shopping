@@ -6,6 +6,7 @@ import Navbar from "../../components/generalComponents/Navbar";
 import Footer from "../../components/generalComponents/Footer";
 import DiscountBanner from "../../components/generalComponents/DiscountBanner";
 import CatergoryContainer from "../../components/generalComponents/CatergoryContainer";
+import { SERVER_URL } from "../../utils";
 function BabyCollection() {
   const [products, setProducts] = useState([]);
 
@@ -14,7 +15,7 @@ function BabyCollection() {
   }, []);
   const getProducts = async () => {
     try {
-      const product = await axios.get("http://localhost:5000/products");
+      const product = await axios.get(`${SERVER_URL}/products`);
       // console.log(product.data);
       setProducts(product.data);
     } catch (err) {

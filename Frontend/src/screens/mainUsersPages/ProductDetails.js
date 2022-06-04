@@ -14,6 +14,7 @@ import { BsStarFill, BsStarHalf } from "react-icons/bs";
 import { BiRupee } from "react-icons/bi";
 import CatergoryContainer from "../../components/generalComponents/CatergoryContainer";
 import DiscountBanner from "../../components/generalComponents/DiscountBanner";
+import { SERVER_URL } from "../../utils";
 function ProductDetails() {
   const { productId } = useParams();
   let product = useSelector((state) => state.product);
@@ -23,7 +24,7 @@ function ProductDetails() {
 
   const fetchProductDetail = async (productId) => {
     const response = await axios
-      .get(`http://localhost:5000/products/${productId}`)
+      .get(`${SERVER_URL}/products/${productId}`)
       .catch((err) => {
         console.log("Err: ", err);
       });
