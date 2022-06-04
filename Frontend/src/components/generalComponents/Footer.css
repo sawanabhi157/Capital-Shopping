@@ -1,0 +1,149 @@
+.footer {
+  background-color: black;
+  width: 100%;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.f-top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  width: 80%;
+  height: 15vh;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1px;
+}
+
+input,
+input:focus {
+  margin-right: 5px;
+  height: 42px;
+  width: 50%;
+  padding: 0px;
+  outline: none;
+  font-size: medium;
+  padding: 2px;
+  padding-left: 25px;
+}
+
+.button-footer {
+  margin-top: 10px;
+  background-color: red;
+  /* width: 17%; */
+  padding: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: antiquewhite;
+  font-size: medium;
+}
+
+.f-one {
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.f-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 40%;
+}
+
+.f-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.f-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.7rem;
+  width: 80%;
+  color: rgb(222, 222, 211);
+  height: 40vh;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1px;
+  margin-top: 25px;
+}
+.f-center div {
+  flex: 20%;
+  text-align: start;
+}
+
+.f-bottom {
+  font-size: 0.7rem;
+}
+a {
+  display: inline-block;
+}
+h2 {
+  display: inline-block;
+  margin: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px 0px 0px;
+    margin: 0;
+  }
+  .f-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+  }
+  .f-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 650px;
+    padding-bottom: 20px;
+  }
+  .f-two {
+    width: 100%;
+  }
+  .f-two input {
+    width: 90%;
+  }
+  .button-footer {
+    padding: 15px 5px 15px 5px;
+  }
+  .f-three {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ekart-logo {
+    display: none;
+  }
+  .f-bottom {
+    text-align: center;
+    width: 80%;
+    padding: 10px 30px 10px 30px;
+    height: 80px;
+  }
+  .f-center div {
+    font-size: 1.1rem;
+  }
+  .f-one p {
+    font-size: 1.06rem;
+  }
+  .f-bottom p {
+    font-size: 0.8rem;
+  }
+}

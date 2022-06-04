@@ -1,0 +1,91 @@
+.main-signup-screen {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-child-signup {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+input {
+  margin-top: 10px;
+}
+.child-signup-screen {
+  width: 600px;
+  height: 95%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.child-signup-top {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.child-signup-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.child-signup-middle {
+  margin-top: 10px;
+}
+
+.child-signup-middle div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.child-signup-middle div input {
+  width: 93%;
+}
+.p-signup {
+  margin-top: 15px;
+}
+.signup-button {
+  background-color: rgb(234, 23, 23);
+  outline: none;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.p-signup {
+  margin-top: 20px;
+}
+.h2-signup {
+  margin-bottom: 10px;
+}
+.login-link {
+  color: black;
+  text-decoration: underline;
+  padding: 0px 0.4rem 0px 0.4rem;
+}
+
+@media screen and (max-width: 480px) {
+  .inner-child-signup {
+    width: 90%;
+  }
+  .child-signup-screen {
+    width: 95%;
+  }
+  .child-signup-middle div input {
+    border: solid black;
+    border-width: thin;
+  }
+}

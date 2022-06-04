@@ -1,0 +1,102 @@
+.main-shoppingcart {
+  width: 100%;
+  margin-top: -20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 236, 236);
+}
+.inner-main-shoppingcart {
+  width: 80%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inner-shopping-cart-left {
+  width: 60%;
+}
+.inner-shopping-cart-right {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.inner-right-cart-shopping {
+  width: 100%;
+  padding: 30px 20px 30px 20px;
+  background-color: rgb(255, 255, 255);
+}
+.checkout-button-btn {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  color: rgb(255, 248, 201);
+  background-color: red;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 6px;
+}
+textarea {
+  resize: none;
+  padding: 10px;
+  width: 90%;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.total-shopping-cart {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  height: 50px;
+  border-bottom: 1px solid rgb(121, 121, 121);
+  margin-bottom: 30px;
+}
+.total-shopping-cart p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  .inner-main-shoppingcart {
+    width: 100%;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .inner-shopping-cart-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .inner-shopping-cart-right {
+    width: 90%;
+  }
+  .inner-right-cart-shopping {
+    width: 100%;
+  }
+  textarea {
+    resize: none;
+    width: 90%;
+    height: 180px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border: solid rgb(228, 159, 56);
+  }
+  .total-shopping-cart {
+    width: 95%;
+  }
+  .checkout-button-btn {
+    width: 97%;
+    height: 60px;
+  }
+}

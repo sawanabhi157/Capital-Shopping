@@ -1,0 +1,58 @@
+.homepage-screen {
+  width: 100%;
+}
+.crouser-home {
+  height: 380px;
+  overflow: hidden;
+}
+.crouser-home img {
+  width: 100%;
+  background-size: cover;
+}
+.cetegory-option-home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.review-slider-home {
+  height: 250px;
+  background-color: rgb(254, 237, 153);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.products-container-home {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  overflow-y: hidden;
+}
+.inner-category-option {
+  width: 61%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 480px) {
+  .cetegory-option-home {
+    width: 100%;
+  }
+  .inner-category-option {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .crouser-home {
+    height: auto;
+  }
+  .crouser-home {
+    display: none;
+  }
+}

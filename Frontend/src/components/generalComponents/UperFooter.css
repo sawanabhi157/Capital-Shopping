@@ -1,0 +1,38 @@
+.footer-uper {
+  width: 100%;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.child-footer-uper {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.com1-p2 {
+  font-size: 0.7rem;
+  margin-top: 10px;
+}
+.com1-p1 {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .footer-uper {
+    width: 100%;
+    height: 500px;
+  }
+  .child-footer-uper {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

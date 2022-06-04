@@ -1,0 +1,141 @@
+.Product-admin {
+  width: 100%;
+  height: 90%;
+  background-color: rgb(230, 243, 254);
+}
+
+.product-admin-head {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 40px;
+}
+.p-products-admin {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px;
+}
+.p-products-admin-count {
+  font-size: 0.7rem;
+  background-color: rgb(181, 215, 255);
+  padding: 10px;
+  border-radius: 30%;
+}
+.product-admin-catergory {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+}
+.inner-product-admin-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+.product-admin-catergory p {
+  padding: 10px 20px 10px 0px;
+  color: rgb(64, 64, 64);
+  font-weight: 520;
+}
+.product-admin-catergory p:hover {
+  border-bottom-style: solid;
+}
+.product-admin-search {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.inner-admin-search-length {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+.product-admin-table {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.product-admin-table-inner {
+  width: 90%;
+  height: 90%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow-y: scroll;
+}
+.input-product-admin,
+.input-product-admin:focus {
+  width: 160px;
+  height: 26px;
+  padding-left: 15px;
+  font-size: 0.8rem;
+}
+.add-product-admin {
+  padding: 8px;
+  margin-top: 10px;
+  background-color: rgb(10, 9, 64);
+  color: aliceblue;
+  border: none;
+  font-weight: 550;
+  cursor: pointer;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #4a70bb;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #b6d2f8;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+th,
+tr,
+td {
+  font-size: 0.8rem;
+}
+/* .action-admin {
+  background-color: rgb(236, 44, 26);
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 20px;
+} */
+/* .edit-admin-action {
+  background-color: rgb(179, 255, 195);
+  width: 50%;
+} */
+.input-product-admin {
+  display: none;
+}
+.action-admin {
+  text-align: center;
+}
+.action-delete {
+  background-color: rgb(233, 80, 57);
+  padding: 10px 0px 10px 0px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.action-paid {
+  padding: 10px 0px 10px 0px;
+}

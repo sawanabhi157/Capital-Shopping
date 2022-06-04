@@ -1,0 +1,78 @@
+.Admin-panel-screen {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.admin-panel-left {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(10, 9, 64);
+}
+.admin-panel-right {
+  width: 80%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.main-admin-content {
+  height: 90%;
+}
+
+.website-admin-name {
+  height: 19%;
+  width: 100%;
+}
+.links-admin {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 20px 20px 20px 20px;
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.ad:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: 600;
+}
+
+.p-admin1 {
+  color: rgb(10, 9, 64);
+  font-weight: 600;
+}
+
+.website-admin-name {
+  display: flex;
+  flex-direction: column;
+  color: rgb(238, 238, 238);
+  align-items: center;
+}
+.p1-admin {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+}
+.admin-footer {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.p-footer-admin {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 0.6rem;
+}

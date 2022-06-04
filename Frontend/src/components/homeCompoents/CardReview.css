@@ -1,0 +1,42 @@
+.card-review {
+  width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.customer-testi {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.reviewr-profile {
+  margin-top: 15px;
+
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.left-profile {
+  width: 50px;
+}
+.right-profile {
+  padding: 10px;
+}
+.right-profile p {
+  font-weight: 600;
+}
+.left-profile-img {
+  width: 100%;
+  background-size: cover;
+  border-radius: 50%;
+}
+.review {
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 480px) {
+  .card-review {
+    width: 70%;
+  }
+}

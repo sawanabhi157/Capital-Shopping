@@ -1,0 +1,92 @@
+.add-product {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.inner-add-product {
+  width: 70%;
+  height: 85%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.child-add-product {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.child-addProduct-middle {
+  height: 90%;
+  margin-top: 10%;
+  overflow-y: scroll;
+}
+.input-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-field input {
+  width: 95%;
+  border: solid black;
+  border-width: thin;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.input-field-sub {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.input-field-sub input {
+  width: 90%;
+  border: solid black;
+  border-width: thin;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.input-field textarea {
+  width: 96%;
+}
+.row-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title-add-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height: 10%;
+  position: fixed;
+  width: 50%;
+}
+.submit-div {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.submit-add-product {
+  width: 100%;
+  padding: 15px 20px 15px 20px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: rgb(143, 143, 244);
+}

@@ -1,0 +1,110 @@
+.main-login-screen {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-child-login {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+input {
+  margin-top: 10px;
+}
+.child-login-screen {
+  width: 600px;
+  height: 95%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.child-login-top {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.child-login-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.child-login-middle {
+  margin-top: 10px;
+}
+
+.child-login-middle div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.child-login-middle div input {
+  width: 93%;
+}
+.p-login {
+  margin-top: 15px;
+}
+.login-button {
+  background-color: rgb(234, 23, 23);
+  outline: none;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.p-login {
+  margin-top: 20px;
+}
+.h2-login {
+  margin-bottom: 10px;
+}
+.login-link {
+  color: black;
+  text-decoration: underline;
+  padding: 0px 0.4rem 0px 0.4rem;
+}
+.G-login-button,
+.F-login-button {
+  width: 100%;
+  outline: none;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.F-login-button {
+  background-color: rgb(48, 41, 255);
+  color: white;
+}
+.signup-link {
+  text-decoration: underline;
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
+@media screen and (max-width: 480px) {
+  .inner-child-login {
+    width: 90%;
+  }
+  .child-login-screen {
+    width: 95%;
+  }
+  .child-login-middle div input {
+    border: solid black;
+    border-width: thin;
+  }
+}
